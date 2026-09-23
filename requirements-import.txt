@@ -1,0 +1,2 @@
+-r requirements.txt
+mwparserfromhell==0.7.2

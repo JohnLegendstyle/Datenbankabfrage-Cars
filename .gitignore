@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.pyc
+data/
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+.import-cache/
+.env
+.env.*
+!.env.example

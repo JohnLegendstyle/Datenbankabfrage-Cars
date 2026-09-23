@@ -1,0 +1,116 @@
+{
+  "Mater": {
+    "name": "Hook",
+    "aliases": [
+      "Mater",
+      "Tow Mater",
+      "Sir Tow Mater"
+    ],
+    "type": "Abschleppwagen",
+    "description": "McQueens bester Freund aus Radiator Springs.",
+    "image": "https://lumiere-a.akamaihd.net/v1/images/mater_characterimage_b6ea14ea.jpeg?region=0%2C0%2C600%2C600"
+  },
+  "Lightning McQueen": {
+    "aliases": [
+      "McQueen",
+      "Lightning",
+      "Chester Whipplefilter"
+    ],
+    "type": "Rennwagen",
+    "description": "Der rote Rennwagen mit der Startnummer 95.",
+    "image": "https://lumiere-a.akamaihd.net/v1/images/lightningmcqueen_characterbio_2bd07a1c_78f6b425.jpeg?region=0%2C0%2C600%2C600"
+  },
+  "Sally Carrera": {
+    "aliases": [
+      "Sally"
+    ],
+    "type": "Sportwagen",
+    "description": "Die blaue Porsche-Dame aus Radiator Springs.",
+    "image": "https://lumiere-a.akamaihd.net/v1/images/sally_characterimage_a07777b2_500c151b.jpeg?region=0%2C0%2C600%2C600"
+  },
+  "Doc Hudson": {
+    "aliases": [
+      "Fabulous Hudson Hornet",
+      "Hudson Hornet"
+    ],
+    "type": "Rennlegende",
+    "description": "Ein erfahrener Rennfahrer und McQueens Mentor.",
+    "image": "https://lumiere-a.akamaihd.net/v1/images/cars_dochudson_characterimage_829445c8.jpeg?region=0%2C0%2C600%2C600"
+  },
+  "Strip Weathers": {
+    "aliases": [
+      "The King",
+      "King"
+    ]
+  },
+  "Ivy": {
+    "aliases": [
+      "Efeu"
+    ]
+  },
+  "Professor Z": {
+    "name": "Professor Zündapp",
+    "aliases": [
+      "Professor Z",
+      "Zundapp"
+    ],
+    "image": "https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/98a1965a-10fd-4469-8493-d678693afb76/ProfessorZ9.jpg"
+  },
+  "Guido": {
+    "image": "https://lumiere-a.akamaihd.net/v1/images/cars_guido_characterimage_d07d6ff8_4499346f.jpeg?region=0%2C0%2C600%2C600"
+  },
+  "Luigi": {
+    "image": "https://lumiere-a.akamaihd.net/v1/images/cars_luigi_characterimage_6835ce92_45567c6c.jpeg?region=0%2C0%2C600%2C600"
+  },
+  "Sarge": {
+    "image": "https://lumiere-a.akamaihd.net/v1/images/cars_sarge_characterimage_13a31362.jpeg?region=0%2C0%2C600%2C600"
+  },
+  "Fillmore": {
+    "image": "https://lumiere-a.akamaihd.net/v1/images/cars_fillmore_characterimage_d5c13c07_11da4cea.jpeg?region=0%2C0%2C600%2C600"
+  },
+  "Flo": {
+    "image": "https://lumiere-a.akamaihd.net/v1/images/cars_flo_characterimage_8aea14bc_d1124361.jpeg?region=0%2C0%2C600%2C600"
+  },
+  "Ramone": {
+    "image": "https://lumiere-a.akamaihd.net/v1/images/cars_ramone_characterimage_a2a4ab1c_0b4d5fa3.jpeg?region=0%2C0%2C600%2C600"
+  },
+  "Cruz Ramirez": {
+    "image": "https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/534fb089-8087-46b2-87ba-3b01fcf138b1/3.jpg"
+  },
+  "Jackson Storm": {
+    "image": "https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/0b914f10-e8d7-4b00-854b-09b8380053c1/8.jpg"
+  },
+  "Smokey": {
+    "image": "https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/fcc04f98-f212-4d36-b9ff-d2f9021a8e4f/6.jpg"
+  },
+  "Junior Moon": {
+    "image": "https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/f2ec6982-7209-4724-9493-8ee5fd258847/4.jpg"
+  },
+  "Louise Nash": {
+    "image": "https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/44e89008-79ff-4514-bb5a-230cdc30d080/6.jpg"
+  },
+  "Miss Fritter": {
+    "image": "https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/f07b0339-676e-49a8-810b-3ee2d0ecfd54/9.jpg"
+  },
+  "Sterling": {
+    "image": "https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/b380b2ec-086d-49e7-abe8-65d32855d2a1/6.jpg"
+  },
+  "Natalie Certain": {
+    "image": "https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/f48f3a72-d1d9-45b5-b489-0a0822b50de7/7.jpg"
+  },
+  "Francesco Bernoulli": {
+    "image": "https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/b1d9b5a6-fae8-4386-88b7-4b279fc2f317/Francesco7.jpg"
+  },
+  "Finn McMissile": {
+    "image": "https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/bba36e64-4c3e-4931-83ed-383953d0da8a/Finn9.jpg"
+  },
+  "Holley Shiftwell": {
+    "image": "https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/547e0363-4c87-4fe1-9396-3531accedd53/Holley6.jpg"
+  },
+  "Miles Axlerod": {
+    "image": "https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/896c2a4f-9f13-4355-9e51-0c5f78dbcf31/Miles7.jpg"
+  },
+  "Acer": {
+    "image": "https://images.squarespace-cdn.com/content/v1/60241cb68df65b530cd84d95/afeb26bb-112f-45d7-aeb7-ba29c012bdbf/Acer8.jpg"
+  }
+}

@@ -3,40 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cars Character Database</title>
-
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <meta name="description" content="Entdecke Cars-Figuren aus Filmen, Serien und Kurzfilmen. Suche nach Namen und filtere nach Auftritten.">
+  <title>Cars · Charakter-Datenbank</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
 </head>
-
 <body>
   <main>
-    <h1>🏁 Cars Character Database</h1>
-    <p class="intro">Entdecke die Charaktere aus der Welt von Cars.</p>
+    <header class="hero">
+      <div class="eyebrow">RADIATOR SPRINGS & DARÜBER HINAUS</div>
+      <h1>Jeder Name.<br><span>Eine Geschichte.</span></h1>
+      <p class="intro">Dein Cars-Figurenverzeichnis für Filme, Serien und Kurzfilme.</p>
+      <p class="catalog-count" id="catalog-count">Katalog wird geladen …</p>
+    </header>
 
-    <label for="search">Charakter suchen</label>
-    <input
-      type="search"
-      id="search"
-      placeholder="Zum Beispiel Lightning McQueen oder Rennwagen"
-      aria-controls="cards"
-    >
+    <form id="search-form" class="filters" role="search">
+      <div class="search-field">
+        <label for="search">Wen suchst du?</label>
+        <input type="search" id="search" name="q" maxlength="120" autocomplete="off"
+          placeholder="Name, Alias oder Fahrzeug – z. B. Hook" aria-controls="cards">
+      </div>
+      <div>
+        <label for="media">Film oder Serie</label>
+        <select id="media" name="media" aria-controls="cards">
+          <option value="">Alle Filme & Serien</option>
+        </select>
+      </div>
+      <div>
+        <label for="sort">Sortierung</label>
+        <select id="sort" name="sort" aria-controls="cards">
+          <option value="featured">Bekannte zuerst</option>
+          <option value="name">Name A–Z</option>
+          <option value="name-desc">Name Z–A</option>
+        </select>
+      </div>
+      <button class="search-button" type="submit">Suchen</button>
+    </form>
 
-    <p id="status" class="status" role="status"></p>
-    <div id="cards" class="cards"></div>
-    <p class="image-credit">Charakterbilder: © Disney/Pixar · <a href="https://cars.disney.com/">Bildquelle</a></p>
+    <div class="results-heading">
+      <h2>Die Charaktere</h2>
+      <p id="status" class="status" role="status" aria-live="polite">Verbindung zur Datenbank wird hergestellt …</p>
+    </div>
+    <div id="error" class="notice" role="alert" hidden>
+      <p id="error-message"></p>
+      <button id="retry" type="button">Erneut versuchen</button>
+    </div>
+    <div id="empty" class="notice" hidden>
+      <h3>Hier ist gerade niemand unterwegs.</h3>
+      <p>Versuche einen anderen Namen oder wähle „Alle Filme & Serien“.</p>
+      <button id="reset" type="button">Filter zurücksetzen</button>
+    </div>
+    <div id="cards" class="cards" aria-busy="true"></div>
+    <nav id="pagination" class="pagination" aria-label="Ergebnisseiten" hidden>
+      <button id="previous" type="button">← Zurück</button>
+      <span id="page-label"></span>
+      <button id="next" type="button">Weiter →</button>
+    </nav>
+    <noscript><p class="notice">Bitte aktiviere JavaScript, um die Datenbank zu durchsuchen.</p></noscript>
+
+    <footer>
+      <p>Ein Fan-Verzeichnis · Datenstand <span id="updated">–</span></p>
+      <details>
+        <summary>Quellen & Umfang</summary>
+        <p id="scope">Die Einträge stammen aus den Filmkategorien und Figurenlisten des Pixar Cars Wiki.</p>
+        <p>Community-Daten können Lücken oder Fehler enthalten. Die Quelle ist auf jeder Karte verlinkt.
+          Englische Namen bleiben erhalten; deutsche Namen sind, soweit erfasst, ebenfalls suchbar.</p>
+        <p>Metadaten: <a href="https://pixarcars.fandom.com/">Pixar Cars Wiki</a>,
+          <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA</a>.
+          Bilder: jeweilige Quelldatei, überwiegend © Disney/Pixar;
+          Hauptfiguren auch von <a href="https://cars.disney.com/">Disney Cars</a> und <a href="https://www.pixar.com/cars-3">Pixar</a>.</p>
+      </details>
+    </footer>
   </main>
-
   <template id="card-template">
     <article class="card">
       <div class="card-banner">
-        <img class="character-image" alt="" width="600" height="600" loading="lazy" decoding="async">
-        <span class="image-fallback" hidden>Bild nicht verfügbar</span>
+        <img class="character-image" alt="" width="600" height="400" loading="lazy" decoding="async" hidden>
+        <span class="image-fallback">Kein Bild hinterlegt</span>
       </div>
       <div class="card-content">
-        <h2></h2>
         <span class="badge"></span>
+        <h3></h3>
+        <p class="aliases" hidden></p>
         <p class="description"></p>
+        <p class="model" hidden></p>
+        <ul class="appearances" aria-label="Auftritte"></ul>
+        <a class="source-link" target="_blank" rel="noopener noreferrer">Figurenquelle ↗</a>
       </div>
     </article>
   </template>

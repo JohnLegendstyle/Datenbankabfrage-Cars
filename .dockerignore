@@ -1,0 +1,11 @@
+.git
+.DS_Store
+.venv
+venv
+__pycache__
+data
+*.sqlite3*
+.import-cache
+.env*
+tests
+tools

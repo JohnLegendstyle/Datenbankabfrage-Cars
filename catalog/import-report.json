@@ -1,0 +1,452 @@
+{
+  "category_candidates": {
+    "cars": 296,
+    "cars-2": 259,
+    "cars-3": 246,
+    "road": 91
+  },
+  "total": 762,
+  "with_image": 753,
+  "excluded": [
+    {
+      "name": "Dale Earnhardt Inc. Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Easy Idle Pitty",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Ponchy Wipeout's Pitty",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Tank Coat Crew Chief",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Nitroade Pitty (wide)",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "N2O Cola Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Octane Gain Pitty (wide)",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "RPM Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "List of unnamed die-cast pitties",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Tow Cap Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Gasprin Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Clutch Aid Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Gask-its Crew Chief",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "N2O Cola Pitty",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Yellow Pickup Fan",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Retread Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Mood Springs Pitty",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Rev-N-Go Pitty",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Vitoline Pitty",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Trunk Fresh Pitty",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Fiber Fuel Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "N2O Cola Crew Chief",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Rev-N-Go Crew Chief",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Tach-O-Mint Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Rev-N-Go Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Delinquent Road Hazards",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Vitoline Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "View Zeen Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Octane Gain Crew Chief",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Vitoline Crew Chief",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "TS2 Delivery Truck",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Sidewall Shine Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Tiny's Frozen Corn Dogs",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Trunk Fresh Crew Chief",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "No Stall Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Shifty Drug Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Re-Volting Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Bumper Save Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Shiny Wax Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Apple Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Spare Mint Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Chick Hicks' Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Nitroade Crew Chief",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Leak Less Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Tank Coat Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Trunk Fresh Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Octane Gain Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Mood Springs Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Rust-eze Crew Chief",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "McQueen's lawyer",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Vinyl Toupee Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Easy Idle Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Lil' Torquey Pistons Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Faux Wheel Drive Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Mood Springs Crew Chief",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Easy Idle Crew Chief",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Geisha Girls",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Rescue Squad Choppers",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Blue Mercedes-Benz Sprinter Van",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Uncle Topolino's Band",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Max Schnell's Pitty",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Alex Carvill's Partner",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "British Army",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "2000 Volkswagen Sharan 7M (interviewer/cameraman)",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "The Lemons",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Green BMW Fan",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Professor Z's Helicopter",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Holy Motors",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Combat Ship 2",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Shu Todoroki's Fan",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Organ Pitty",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Tokyo Party Staff",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Red Range Rover",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Gremlin (character)",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Lewis Hamilton's Pitty",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Francesco Race Fan",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Ashton Pacer",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Vitoline Manager",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Blue Range Rover Reporter",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Thunder Hollow Announcer",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Octane Gain Crew Chief (Cars 3)",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "\"Lucky\" Horntester",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Rev-N-Go Racer",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Rich Hurry",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Ponchy Wipeout's Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Crabs",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "No Stall Crew Chief (Cars 3)",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Sweet Tea and the Legends",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Chip Gearings's Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Apple Racer (Cars 3)",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Pam Wheeldarrow",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "The Legends",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Robert Jamjones",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Bobby Swift's Hauler",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Lavatory Services Truck",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "2nd AC",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Electric Car Warriors",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Orderly Pitties",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Rescue Squad Ambulance",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Rescue Squad Trooper",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Scientist Pitties",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Flo's V8 Café",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Referee Pitty",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "C-Tunes Pitties",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Drummer Pitty",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Propwash Junction Biplane",
+      "reason": "Keine benannte Einzelfigur / keine Figuren-Infobox"
+    },
+    {
+      "name": "Dinoco Girls",
+      "reason": "Gruppe statt benannter Einzelfigur"
+    },
+    {
+      "name": "Falcon Hawks",
+      "reason": "Gruppe statt benannter Einzelfigur"
+    },
+    {
+      "name": "Road Rumblers (group)",
+      "reason": "Gruppe statt benannter Einzelfigur"
+    },
+    {
+      "name": "Tractors",
+      "reason": "Gruppe statt benannter Einzelfigur"
+    }
+  ]
+}
