@@ -1,1 +1,40 @@
-<H1>Cars-Datenbankabfrage</H1>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cars Character Database</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <h1>🏁 Cars Character Database</h1>
+    <p class="intro">Entdecke die Charaktere aus der Welt von Cars.</p>
+
+    <label for="search">Charakter suchen</label>
+    <input
+      type="search"
+      id="search"
+      placeholder="Zum Beispiel Lightning McQueen oder Rennwagen"
+      aria-controls="cards"
+    >
+
+    <p id="status" class="status" role="status"></p>
+    <div id="cards" class="cards"></div>
+  </main>
+
+  <template id="card-template">
+    <article class="card">
+      <div class="card-banner" aria-hidden="true"></div>
+      <div class="card-content">
+        <h2></h2>
+        <span class="badge"></span>
+        <p class="description"></p>
+      </div>
+    </article>
+  </template>
+</body>
+</html>

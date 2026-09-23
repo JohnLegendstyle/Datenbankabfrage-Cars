@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111827;
+  color: #f9fafb;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+
+h1 {
+  margin-bottom: 12px;
+  font-size: clamp(28px, 5vw, 44px);
+}
+
+.intro {
+  color: #cbd5e1;
+  margin-bottom: 32px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #64748b;
+  border-radius: 12px;
+  background: #1f2937;
+  color: white;
+  font: inherit;
+}
+
+input::placeholder {
+  color: #b8c3d1;
+}
+
+input:focus-visible {
+  outline: 3px solid #fbbf24;
+  outline-offset: 3px;
+}
+
+.status {
+  margin: 20px 0;
+  color: #cbd5e1;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(100%, 260px), 1fr)
+  );
+  gap: 24px;
+}
+
+.card {
+  overflow: hidden;
+  border: 1px solid #374151;
+  border-radius: 16px;
+  background: #1f2937;
+}
+
+.card-banner {
+  display: grid;
+  place-items: center;
+  height: 130px;
+  background: linear-gradient(135deg, #b91c1c, #ef4444);
+  font-size: 56px;
+}
+
+.card-content {
+  padding: 24px;
+}
+
+.card h2 {
+  margin: 0 0 12px;
+  font-size: 22px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 20px;
+  background: #374151;
+  color: #fde68a;
+  font-size: 14px;
+}
+
+.description {
+  margin-bottom: 0;
+  color: #cbd5e1;
+  line-height: 1.6;
+}
