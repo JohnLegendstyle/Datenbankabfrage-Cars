@@ -24,11 +24,15 @@
 
     <p id="status" class="status" role="status"></p>
     <div id="cards" class="cards"></div>
+    <p class="image-credit">Charakterbilder: © Disney/Pixar · <a href="https://cars.disney.com/">Bildquelle</a></p>
   </main>
 
   <template id="card-template">
     <article class="card">
-      <div class="card-banner" aria-hidden="true"></div>
+      <div class="card-banner">
+        <img class="character-image" alt="" width="600" height="600" loading="lazy" decoding="async">
+        <span class="image-fallback" hidden>Bild nicht verfügbar</span>
+      </div>
       <div class="card-content">
         <h2></h2>
         <span class="badge"></span>
